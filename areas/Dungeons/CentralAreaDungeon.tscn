@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://areas/Dungeons/CentralAreaDungeon.gd" type="Script" id=1]
 [ext_resource path="res://pickups/board/Board.tscn" type="PackedScene" id=2]
@@ -12,6 +12,8 @@
 [ext_resource path="res://pickups/store/Store.tscn" type="PackedScene" id=10]
 [ext_resource path="res://tiles/key_door.tscn" type="PackedScene" id=11]
 [ext_resource path="res://tiles/grass/Grass.tscn" type="PackedScene" id=12]
+[ext_resource path="res://pickups/key/Key.tscn" type="PackedScene" id=13]
+[ext_resource path="res://pickups/coin/Coin.tscn" type="PackedScene" id=14]
 
 [node name="CentralAreaGiantForest" type="Node2D"]
 script = ExtResource( 1 )
@@ -85,3 +87,9 @@ position = Vector2( 96, 48 )
 
 [node name="Grass7" parent="." instance=ExtResource( 12 )]
 position = Vector2( 96, 112 )
+
+[node name="Key" parent="." instance=ExtResource( 13 )]
+position = Vector2( 289, 145 )
+
+[node name="Coin" parent="." instance=ExtResource( 14 )]
+position = Vector2( 213, 23 )
