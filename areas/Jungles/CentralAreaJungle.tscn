@@ -23,9 +23,6 @@ position = Vector2( 168, 232 )
 position = Vector2( 133, 201 )
 message = "Central Area Jungle"
 
-[node name="Coin" parent="Board" instance=ExtResource( 7 )]
-position = Vector2( 150, -16 )
-
 [node name="ForestTileMap" parent="." instance=ExtResource( 6 )]
 z_index = -2
 cell_size = Vector2( 16, 16 )
@@ -33,3 +30,6 @@ tile_data = PoolIntArray( -65532, 18, 0, -65531, 18, 0, -65530, 18, 0, -65529, 1
 
 [node name="Coin" parent="." instance=ExtResource( 7 )]
 position = Vector2( 158, 154 )
+
+[node name="Coin2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 283, 185 )

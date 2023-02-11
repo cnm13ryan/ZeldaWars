@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://areas/GiantForests/CentralAreaGigantForest.gd" type="Script" id=1]
 [ext_resource path="res://pickups/board/Board.tscn" type="PackedScene" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://ui/hud.tscn" type="PackedScene" id=5]
 [ext_resource path="res://tiles/ForestTileMap.tscn" type="PackedScene" id=6]
 [ext_resource path="res://enemies/Bat/Bat.tscn" type="PackedScene" id=7]
+[ext_resource path="res://pickups/coin/Coin.tscn" type="PackedScene" id=8]
 
 [node name="CentralAreaGigantForest" type="Node2D"]
 script = ExtResource( 1 )
@@ -54,3 +55,15 @@ position = Vector2( 176, 56 )
 
 [node name="Bat9" parent="." instance=ExtResource( 7 )]
 position = Vector2( 120, 96 )
+
+[node name="Coin" parent="." instance=ExtResource( 8 )]
+position = Vector2( 102, 53 )
+
+[node name="Coin2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 302, 97 )
+
+[node name="Coin3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 6, 114 )
+
+[node name="Coin4" parent="." instance=ExtResource( 8 )]
+position = Vector2( 305, 159 )
