@@ -2,7 +2,7 @@ class_name Mage extends Node2D
 
 var dialogBox: DialogBox = null
 var characterName = 'Uncle Bob'
-var dialogs = ["Aperte a tecla X e descubra","Mas se não for desistir siga esse [wave]caminho."]
+var dialogs = ["Press the X key and find out", "But if you are not going to give up, follow this [wave] path."]
 var talkAboutTheKey = false
 
 func _ready():
@@ -14,13 +14,13 @@ func _on_Area2D_body_entered(body):
 		
 	if self.talkAboutTheKey:
 		dialogBox.start_dialog(self.characterName, [
-			'Sentido-se perdido?'
+			'Feeling lost ?'
 		])
 		return
 		
 	if GameState.keys > 0:
 		dialogBox.start_dialog(self.characterName, [
-			'Haha! Você encontrou a maldita chave.'
+			'Ha Ha. You found the damn Key!'
 		])
 		self.talkAboutTheKey = true
 		return

@@ -4,19 +4,19 @@
 [ext_resource path="res://ui/hud.gd" type="Script" id=3]
 [ext_resource path="res://ui/hearts.png" type="Texture" id=4]
 
-[sub_resource type="DynamicFontData" id=1]
-font_path = "res://fonts/m5x7.ttf"
-
-[sub_resource type="DynamicFont" id=2]
-size = 12
-font_data = SubResource( 1 )
-
 [sub_resource type="DynamicFontData" id=3]
 font_path = "res://fonts/m5x7.ttf"
 
 [sub_resource type="DynamicFont" id=4]
 size = 12
 font_data = SubResource( 3 )
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://fonts/m5x7.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 12
+font_data = SubResource( 1 )
 
 [node name="hud" type="CanvasLayer"]
 script = ExtResource( 3 )
@@ -33,8 +33,10 @@ color = Color( 0, 0, 0, 1 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_left = 0.875
-anchor_right = 1.0
-anchor_bottom = 0.155556
+anchor_right = 1.02813
+anchor_bottom = 0.216667
+margin_left = -10.0
+margin_right = -10.0
 margin_bottom = -6.0
 rect_min_size = Vector2( 0, 22 )
 custom_constants/separation = 0
@@ -42,9 +44,17 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="CoinTextLabel" type="RichTextLabel" parent="VBoxContainer"]
-margin_right = 40.0
+[node name="ArrowTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+margin_right = 49.0
 margin_bottom = 11.0
+rect_min_size = Vector2( 0, 11 )
+custom_fonts/normal_font = SubResource( 4 )
+text = "Teste"
+
+[node name="CoinTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+margin_top = 11.0
+margin_right = 49.0
+margin_bottom = 22.0
 rect_min_size = Vector2( 0, 11 )
 custom_fonts/normal_font = SubResource( 2 )
 text = "Coins: 0"
@@ -53,27 +63,12 @@ __meta__ = {
 }
 
 [node name="KeysTextLabel" type="RichTextLabel" parent="VBoxContainer"]
-margin_top = 11.0
-margin_right = 40.0
-margin_bottom = 22.0
+margin_top = 22.0
+margin_right = 49.0
+margin_bottom = 33.0
 rect_min_size = Vector2( 0, 11 )
 custom_fonts/normal_font = SubResource( 2 )
 text = "keys: 0"
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="VBoxContainer2" type="VBoxContainer" parent="."]
-margin_left = 5.0
-margin_right = 64.0
-margin_bottom = 40.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="ArrowTextLabel" type="RichTextLabel" parent="VBoxContainer2"]
-margin_right = 59.0
-margin_bottom = 11.0
-rect_min_size = Vector2( 0, 11 )
-custom_fonts/normal_font = SubResource( 4 )
-text = "Teste"

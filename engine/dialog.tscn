@@ -30,10 +30,10 @@ text = "teste"
 script = ExtResource( 4 )
 
 [node name="TextBox" type="RichTextLabel" parent="."]
-margin_left = 16.0
-margin_top = 16.0
-margin_right = 176.0
-margin_bottom = 56.0
+margin_left = 14.0
+margin_top = 17.0
+margin_right = 174.0
+margin_bottom = 57.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
 bbcode_text = "teste"

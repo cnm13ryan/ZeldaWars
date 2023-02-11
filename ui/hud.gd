@@ -50,4 +50,4 @@ func show_keys():
 	$VBoxContainer/KeysTextLabel.text = "keys: " + str(GameState.keys)
 	
 func show_arrows():
-	$VBoxContainer2/ArrowTextLabel.text = "arrows: " + str(GameState.player_arrows)
+	$VBoxContainer/ArrowTextLabel.text = "arrows: " + str(GameState.player_arrows)
