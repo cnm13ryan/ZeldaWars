@@ -33,3 +33,7 @@ tile_data = PoolIntArray( -1, 19, 0, -65536, 19, 0, -65535, 19, 0, -65534, 19, 0
 
 [node name="EnterCentralAreaDungeon" parent="." instance=ExtResource( 4 )]
 position = Vector2( 328, 264 )
+
+[node name="Board2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 310, 270 )
+message = "Dungeon"
