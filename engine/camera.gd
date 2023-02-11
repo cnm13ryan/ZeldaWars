@@ -25,6 +25,10 @@ func body_exited(body):
 	if body.get('type') == 'enemy':
 		body.set_physics_process(false)
 
-func on_area_body_exited(area):
+func _on_area_body_exited(area):
 	if area.get('disappears') == true:
 		area.queue_free()
+
+
+func _on_area_area_entered(area):
+	pass # Replace with function body.

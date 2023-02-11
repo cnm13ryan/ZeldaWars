@@ -116,9 +116,6 @@ margin_top = 8.26486
 margin_right = 10.6486
 margin_bottom = 24.2649
 custom_fonts/normal_font = SubResource( 3 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Coin3" type="Sprite" parent="Item3"]
 position = Vector2( 11, 14.863 )
