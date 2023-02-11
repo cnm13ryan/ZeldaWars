@@ -18,7 +18,7 @@ tile_data = PoolIntArray( -327675, 18, 0, -327674, 18, 0, -327673, 18, 0, -32767
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 position = Vector2( 160, 144 )
-message = "Swamps"
+message = "Central Area Swamps"
 
 [node name="hud" parent="." instance=ExtResource( 4 )]
 

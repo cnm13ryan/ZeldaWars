@@ -16,7 +16,7 @@ position = Vector2( 112, 192 )
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 position = Vector2( 120, 16 )
-message = "Village"
+message = "Central Area Village"
 
 [node name="player" parent="." instance=ExtResource( 3 )]
 position = Vector2( 160, 24 )
