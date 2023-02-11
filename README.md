@@ -1,12 +1,7 @@
 # ⚔️ ZeldaWars
-A zelda-like Web 3 game made in Godot
+A zelda-like Web 3 game made in Godot (Demo for EasyA x Immutable X Hackathon) 
 
 # ZeldaWars
 
 
-# Bugs of the code
-
-* Error in not showing the keys
-
-* Errors in getting the keys
 
