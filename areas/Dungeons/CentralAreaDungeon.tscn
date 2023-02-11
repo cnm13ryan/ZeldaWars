@@ -47,7 +47,7 @@ position = Vector2( 152, 168 )
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 position = Vector2( 128, 112 )
-message = "Você esta em uma masmorra"
+message = "Central Area Dungeon"
 
 [node name="player" parent="." instance=ExtResource( 3 )]
 position = Vector2( 152, 136 )

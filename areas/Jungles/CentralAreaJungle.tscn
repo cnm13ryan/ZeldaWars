@@ -20,7 +20,7 @@ position = Vector2( 168, 232 )
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 position = Vector2( 136, 184 )
-message = "Você está na selva"
+message = "Central Area Jungle"
 
 [node name="ForestTileMap" parent="." instance=ExtResource( 6 )]
 z_index = -2

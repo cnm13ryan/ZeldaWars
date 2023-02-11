@@ -20,7 +20,7 @@ position = Vector2( 168, 232 )
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 position = Vector2( 144, 192 )
-message = "Soulless Castle"
+message = "Central Area Soulless Castle"
 
 [node name="VillageTileMap" parent="." instance=ExtResource( 6 )]
 z_index = -2
