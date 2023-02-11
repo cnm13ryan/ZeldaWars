@@ -35,7 +35,7 @@ position = Vector2( 184, 312 )
 
 [node name="Board" parent="." instance=ExtResource( 2 )]
 position = Vector2( 216, 264 )
-message = "Você esta no deserto"
+message = "Deserts"
 
 [node name="ForestTileMap" parent="." instance=ExtResource( 6 )]
 z_index = -2

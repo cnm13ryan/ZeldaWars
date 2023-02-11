@@ -25,6 +25,6 @@ func body_exited(body):
 	if body.get('type') == 'enemy':
 		body.set_physics_process(false)
 
-func area_exited(area):
+func on_area_body_exited(area):
 	if area.get('disappears') == true:
 		area.queue_free()
