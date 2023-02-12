@@ -5,7 +5,7 @@ A zelda-like Web 3 game made in Godot (Demo for EasyA x Immutable X Hackathon)
 
 * https://cnm13ryan.github.io/The_Legend_of_Link/main/Web/ZeldaWars.html
 
-# Features
+# Current Features
 
 * A RPG-Action game with multiple maps to explore.
 
