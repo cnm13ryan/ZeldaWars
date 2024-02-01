@@ -16,6 +16,8 @@ A zelda-like Web 3 game made in Godot (Demo for EasyA x Immutable X Hackathon)
 
 * No set Dungeon respawn time (Dungeon refreshes whenver player leaves and enter)
 
+* Heart given after killing a monster in the Central Area Giant Forest is not in the confined map (within the forest boundaries)
+
 # Future Development
 
 Concept  - Zelda unlocks unprecedented rewards and NFTs for users who can select their preferred brands as part of the registration process. 
