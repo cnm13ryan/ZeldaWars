@@ -12,6 +12,10 @@ A zelda-like Web 3 game made in Godot (Demo for EasyA x Immutable X Hackathon)
 
 * Can get keys and coins to unlock treasures.
 
+# Current Bugs found
+
+* No set Dungeon respawn time (Dungeon refreshes whenver player leaves and enter)
+
 # Future Development
 
 Concept  - Zelda unlocks unprecedented rewards and NFTs for users who can select their preferred brands as part of the registration process. 
